@@ -1,0 +1,141 @@
+body{
+
+    margin: 0;
+   
+    padding: 0;
+   
+    font-family:"Monaco";
+   
+    background: url(menu-wrapper.jpg); 
+   
+    background-repeat: no-repeat;
+   
+    background-size:100%;
+   
+}
+
+   .box{
+   
+    width: 300px;
+   
+    padding: 30px;
+   
+    position: absolute;
+   
+    top: 50%;
+   
+    left: 50%;
+   
+    transform: translate(-50%,-50%);
+   
+    background-color: darkturquoise;
+   
+    text-align: center;
+   
+   }
+   marquee {
+       font-style: italic;
+       padding-top: 10px;
+   }
+   .box h1,h2{
+   
+    color: white;
+   
+    text-transform: uppercase;
+   
+    font-weight: 500;
+   
+   }
+
+   input {
+       font-family: "Brush Script MT";
+       font-size:20px ;
+   }
+   
+   .box input[type = "email"], .box input[type = "password"]{
+   
+    border: 0;
+   
+    background: none;
+   
+    display: block;
+   
+    margin: 20px auto;
+   
+    text-align: center;
+   
+    border: 2px solid #00FFFF;
+   
+    padding: 14px 10px;
+   
+    width: 200px;
+   
+    outline: none;
+   
+    color: white;
+   
+    border-radius: 24px;
+   
+    transition: 0.25s;
+   
+   }
+   
+   .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+   
+    width: 280px;
+   
+    border-color: #00FFFF;
+    
+   
+   }
+   
+   
+   
+   .box input[type = "submit"]
+   
+   {
+   
+     border: 0;
+   
+    background: none;
+   
+    display: block;
+   
+    margin: 20px auto;
+   
+    text-align: center;
+   
+    border: 2px solid #FF00FF;
+   
+    padding: 14px 40px;
+   
+    outline: none;
+   
+    color: white;
+   
+    border-radius: 24px;
+   
+    transition: 0.25s;
+   
+    cursor: pointer;
+   
+   }
+   
+   
+   
+   .box input[type = "submit"]:hover
+   
+   {
+   
+    background:#FF00FF;
+   
+   }
+
+   .footer {
+    color: #fff;
+    height: 40px;
+  }
+  
+  .footer-logo {
+    font-size: 20px;
+  }
